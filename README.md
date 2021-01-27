@@ -6,7 +6,6 @@ reference this module in your Terraform template using
 ```
 module "remote_state" {
     source         = "github.com/eddievaltix/terraform-remotestate-s3"
-    region         = "us-west-2"
     bucket         = "valtix-terraform-state"
     dynamodb_table = "terraform-state-backend"
 }
