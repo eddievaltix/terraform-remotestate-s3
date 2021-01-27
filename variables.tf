@@ -1,6 +1,3 @@
-variable "region" {
-  description = "AWS region"
-}
 variable "bucket" {
   description = "name of the S3 bucket to be used for Terraform remote state storage"
 }
