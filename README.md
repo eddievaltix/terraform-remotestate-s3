@@ -2,7 +2,7 @@
 This Terraform module creates a simple s3 and dynamodb backend to store Terraform remote state
 
 ## How to use:
-reference this module in your Terraform template using
+reference this module in your Terraform template or simply create a main.tf with the below
 ```
 provider "aws" {
 // use your preferred region here
